@@ -1,16 +1,18 @@
 # 项目名称
-workflow
+accessible-workflow
 
-# 安装所需要使用的包
-!pip install openai langgraph Agently==3.3.4.5 mermaid-python nest_asyncio
+## 安装所需要使用的包
 
-# 因为本课使用的langgraph可能需要依赖langchain 0.2.10版本，但其他课件依赖langchain 0.1.20版本
-# 请学习完本课之后对langchain进行降级，以免在其他课程出现运行错误
+```!pip install openai langgraph Agently==3.3.4.5 mermaid-python nest_asyncio```
 
-#!pip install langchain==0.1.20
-#!pip install langchain-openai==0.1.6
-#!pip install langchain-community==0.0.38
+* 因为本课使用的langgraph可能需要依赖langchain 0.2.10版本，但其他课件依赖langchain 0.1.20版本
+请学习完本课之后对langchain进行降级，以免在其他课程出现运行错误
 
+```
+!pip install langchain==0.1.20
+!pip install langchain-openai==0.1.6
+!pip install langchain-community==0.0.38
+```
 
 ## Roadmap
 
