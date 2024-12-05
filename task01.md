@@ -69,7 +69,6 @@ deep_seek_default_model = os.getenv("DEEPSEEK_DEFAULT_MODEL", "deepseek-chat")
 
 ```Python
 #试一试
-from ENV import deep_seek_url, deep_seek_api_key, deep_seek_default_model
 import Agently
 agent = (
     Agently.create_agent()
