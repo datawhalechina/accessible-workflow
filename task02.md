@@ -32,9 +32,13 @@ Prompt表达优化
 
 任务流程有输入输出，存在模型请求和条件判断，有循环，下面二张图是工程流还是智能体呢
 
-![](https://uaadh1dz7gu.feishu.cn/space/api/box/stream/download/asynccode/?code=OTQzMTgwOTkzMWY4OWIzMjQxNDYzM2IwZDcxY2QxMjBfbDBlcFlLSlBJQ05PdVFwUkp6V1EyUW02NnAwQ2pIWjdfVG9rZW46STBvVmI0M2hKb3pKbHZ4NUNJS2NOQ2tvbkRlXzE3MzMxMzgyOTM6MTczMzE0MTg5M19WNA)
+![Alt](img_01.png "工作流")
 
-![](https://uaadh1dz7gu.feishu.cn/space/api/box/stream/download/asynccode/?code=ZDk4M2FhMTRhNGQ2YThjOTQxYThmZGFjN2Q0OTMyYTdfZGkxYlpKRzZWZzQ5NHR2TGJFRUdxbW9oTk9jUkp2RlZfVG9rZW46UXVqN2J5U2hZb3J6SWR4eFdIMGNqc3hVbkRjXzE3MzMxMzgyOTM6MTczMzE0MTg5M19WNA)
+<br/>
+<br/>
+<br/>
+
+![Alt](img_02.png "智能体")
 
 第一张是工作流，第二张是智能体
 
