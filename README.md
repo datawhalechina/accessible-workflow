@@ -2,7 +2,7 @@
 accessible-workflow
 
 ## 安装所需要使用的包
-
+*注: 建议 python 版本在3.10及以上 *
 ```
 !pip install openai langgraph Agently==3.3.4.5 mermaid-python nest_asyncio
 ```
