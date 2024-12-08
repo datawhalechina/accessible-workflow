@@ -46,6 +46,4 @@
 
 - 输出结果：基于所有输入信息，给出的**第二轮优化后翻译结果(translation_2)**
 
-  
-
 - 关键代码文件：[https://github.com/andrewyng/translation-agent/blob/main/src/translation_agent/utils.py](https://github.com/andrewyng/translation-agent/blob/main/src/translation_agent/utils.py)

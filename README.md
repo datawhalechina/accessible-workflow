@@ -16,6 +16,20 @@ accessible-workflow
 !pip install langchain-community==0.0.38
 ```
 
+## 关于key
+
+使用的是 [https://www.deepseek.com/] API,要到官方申请API调用权限，注册送500万 token
+
+## 目录
+
+- [task01](task01.md) 课程介绍，试一试
+- [task02](task02.md) 如何区别工作流和智能体
+- [task03](task03.md) 将问题工作流化
+- [task04](task04.md) 翻译工作流原理讲解
+- [task05](task05.md) 分别使用LangGraph和Agently重现翻译工作流
+
+![Alt](img_03.png "deepseek官网")
+
 ## Roadmap
 
 *注：说明当前项目的规划，并将每个任务通过 Issue 形式进行对外进行发布。*

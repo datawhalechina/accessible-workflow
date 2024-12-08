@@ -5,6 +5,7 @@
 LangGraph手册：[https://langchain-ai.github.io/langgraph/](https://langchain-ai.github.io/langgraph/)
 
 ```Python
+
 import openai
 from ENV import deep_seek_url, deep_seek_api_key, deep_seek_default_model
 from langgraph.graph import StateGraph, START, END
@@ -47,6 +48,7 @@ class State(TypedDict):
     translation_2: Optional[str] = None
 
 # 创建一个工作流对象
+
 workflow = StateGraph(State)
 
 # 定义三个工作块
@@ -202,15 +204,11 @@ Comments and suggestions for how to improve this are very welcome!"""
 print(result)
 ```
 
-  
-
 ```Python
 # 绘制流程图
 from mermaid import Mermaid
 Mermaid(app.get_graph().draw_mermaid())
 ```
-
-  
 
 ```Python
 Agently Workflow
@@ -453,4 +451,5 @@ Comments and suggestions for how to improve this are very welcome!"""
 #print(workflow.storage.get("reflection"))
 #print(workflow.storage.get("translation_2"))
 print(json.dumps(result, indent=4, ensure_ascii=False))
+
 ```
