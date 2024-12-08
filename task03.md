@@ -2,13 +2,20 @@
 
 ```Python
 - Agently官网：[Agently.cn](https://Agently.cn)
-- Agently Workflow与LangGraph的详细比较：[点击查看](https://github.com/Maplemx/Agently/blob/main/playground/constrast_between_Agently_workflow_and_LangGraph.ipynb)
+
+- Agently Workflow与LangGraph的详细比较：[点击查看]
+
+(https://github.com/Maplemx/Agently/blob/main/playground/constrast_between_Agently_workflow_and_LangGraph.ipynb)
 - Agently Workflow详细教程：[点击查看](https://agently.cn/guides/workflow/index.html)
 ```
 
-```Python
-workflow = Agently.Workflow()
+## 客服工作流的工作流程
 
+![Alt](img_04.jpg "工作流程图")
+
+```Python
+
+workflow = Agently.Workflow()
 @workflow.chunk()
 def user_input(inputs, storage):
     storage.set("user_input", input("[请输入您的要求]: "))
@@ -79,8 +86,5 @@ def reply(inputs, storage):
 
 workflow.start()
 pass
+
 ```
-
-工作流的工作流程
-
-![](https://uaadh1dz7gu.feishu.cn/space/api/box/stream/download/asynccode/?code=ZjkxODJkN2RhMjU2NGY4N2FmYjJiOGQ5NTc2MmUzMDBfRkR6MHg5dzE4V0Z6WFpmYVhEMnBBaU9WS1lrY2k0c3NfVG9rZW46Q2E4MGJVRnVxb3JyWm94dmlFZmMxMHVlbmdlXzE3MzMxMzg2NDU6MTczMzE0MjI0NV9WNA)

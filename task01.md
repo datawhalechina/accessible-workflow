@@ -61,11 +61,8 @@ deep_seek_default_model = os.getenv("DEEPSEEK_DEFAULT_MODEL", "deepseek-chat")
 #print(f"DEEPSEEK_DEFAULT_MODEL: {deep_seek_default_model}")
 ```
 
-  
-
-试一试
-
-# 直接请求模型的效果：
+# 试一试
+## 直接请求模型的效果：
 
 ```Python
 #试一试
