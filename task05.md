@@ -7,7 +7,18 @@ LangGraph手册：[https://langchain-ai.github.io/langgraph/](https://langchain-
 ```Python
 
 import openai
-from ENV import deep_seek_url, deep_seek_api_key, deep_seek_default_model
+# from ENV import deep_seek_url, deep_seek_api_key, deep_seek_default_model //另一种key的加载方式，有需要的可以自行了解下哦
+from dotenv import load_dotenv
+import os
+
+# 加载 .env 文件
+load_dotenv()
+
+# 从环境变量中读取值
+deep_seek_url = os.getenv("DEEPSEEK_BASE_URL")
+deep_seek_api_key = os.getenv("DEEPSEEK_API_KEY")
+deep_seek_default_model = os.getenv("DEEPSEEK_DEFAULT_MODEL", "deepseek-chat")
+
 from langgraph.graph import StateGraph, START, END
 import os
 
